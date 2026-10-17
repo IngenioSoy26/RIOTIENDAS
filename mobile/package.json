@@ -1,0 +1,19 @@
+{
+  "name": "riotiendas-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "sync": "npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "typescript": "^5.9.3"
+  }
+}
